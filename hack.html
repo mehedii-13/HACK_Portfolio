@@ -13,14 +13,102 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<main class="hero">
-			<span class="hero__tag">HACK</span>
-			<h1>Hardware Acceleration Club of KUET</h1>
-			<p>
-				A simple place to learn, build, and share hardware-inspired projects
-				with friends.
-			</p>
-			<a class="btn" href="#">Join the club</a>
+		<header class="site-header">
+			<div class="brand">
+				<span class="brand__mark">HACK</span>
+				<span class="brand__name">KUET Club</span>
+			</div>
+			<nav class="nav" aria-label="Primary">
+				<a class="nav__cta" href="#contact">Contact</a>
+				<ul class="nav__list">
+					<li><a class="nav__link" href="#home">Home</a></li>
+					<li><a class="nav__link" href="#achievements">Achievements</a></li>
+					<li><a class="nav__link" href="#teams">Best Teams</a></li>
+					<li><a class="nav__link" href="#words">Words</a></li>
+					<li><a class="nav__link" href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="page">
+			<section id="home" class="hero section">
+				<span class="hero__tag">HACK</span>
+				<h1>Hardware Acceleration Club of KUET</h1>
+				<p>
+					A simple place to learn, build, and share hardware-inspired projects
+					with friends.
+				</p>
+				<a class="btn" href="#contact">Join the club</a>
+			</section>
+			<section id="achievements" class="section">
+				<h2 class="section__title">Achievements</h2>
+				<div class="card-grid">
+					<article class="card">
+						<h3>National Hardware Hackathon</h3>
+						<p>1st place for FPGA-based vision acceleration, 2025.</p>
+					</article>
+					<article class="card">
+						<h3>Smart Device Expo</h3>
+						<p>Best prototype award for low-power sensor cluster.</p>
+					</article>
+					<article class="card">
+						<h3>Inter-University Robotics Meet</h3>
+						<p>Runner-up in autonomous systems league.</p>
+					</article>
+				</div>
+			</section>
+			<section id="teams" class="section">
+				<h2 class="section__title">Best Teams</h2>
+				<div class="card-grid">
+					<article class="card">
+						<h3>PulseForge</h3>
+						<p>Specialists in real-time DSP pipelines and edge AI.</p>
+					</article>
+					<article class="card">
+						<h3>Quantum Loom</h3>
+						<p>Masters of hardware security and accelerated cryptography.</p>
+					</article>
+					<article class="card">
+						<h3>Ion Crew</h3>
+						<p>Known for robotics control stacks and sensor fusion.</p>
+					</article>
+				</div>
+			</section>
+			<section id="words" class="section">
+				<h2 class="section__title">Words from the President &amp; Secretary</h2>
+				<div class="quote-grid">
+					<blockquote class="quote">
+						<p>
+							"We are building a culture of hands-on curiosity where everyone
+							learns by shipping real hardware."
+						</p>
+						<cite>President, HACK Club</cite>
+					</blockquote>
+					<blockquote class="quote">
+						<p>
+							"Our teams win because we iterate together, share knowledge, and
+							celebrate every prototype."
+						</p>
+						<cite>Secretary, HACK Club</cite>
+					</blockquote>
+				</div>
+			</section>
+			<section id="contact" class="section contact">
+				<h2 class="section__title">Contact Details</h2>
+				<div class="contact__details">
+					<div>
+						<p class="contact__label">Email</p>
+						<p>hackclub@kuet.edu</p>
+					</div>
+					<div>
+						<p class="contact__label">Location</p>
+						<p>Academic Building (B Block), KUET Campus</p>
+					</div>
+					<div>
+						<p class="contact__label">Social</p>
+						<p>@hackclub_kuet</p>
+					</div>
+				</div>
+			</section>
 		</main>
 	</body>
 </html>
